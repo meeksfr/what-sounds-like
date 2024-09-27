@@ -11,7 +11,7 @@ function Home() {
   const [title, setTitle] = useState("");
 
   useEffect(() => {
-    getNotes;
+    getNotes();
   }, []);
 
   const getNotes = () => {
