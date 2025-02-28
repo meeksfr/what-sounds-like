@@ -104,6 +104,7 @@ DATABASES = {
     }
 }'''
 
+#for running on choreo
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
